@@ -1,4 +1,4 @@
-Scapes data of MS application to universities as listed in Yocket.com.
+Scrapes Yocket.com data on MS Application for Universities based on stream you provide.
 Spawns a selenium session in Safari webdriver which searches "Yocket MS Computer Science X_University"
 
 The first google link is opened to scrape relevant data for the university. 
