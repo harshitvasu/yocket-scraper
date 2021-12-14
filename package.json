@@ -1,0 +1,26 @@
+{
+  "name": "masters-scrapers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mscraper.js",
+  "dependencies": {
+    "json-csv": "^4.0.2",
+    "selenium-webdriver": "^4.1.0",
+    "sleep": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mscraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitvasu/yocket-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitvasu/yocket-scraper/issues"
+  },
+  "homepage": "https://github.com/harshitvasu/yocket-scraper#readme"
+}
