@@ -1,103 +1,100 @@
-//   const AMERICAN_UNIVERSITIES = 
-//   [
-//     "Massachusetts Institute of Technology (MIT)",
-//     "Stanford University",
-//     "Carnegie Mellon University",
-//     "University of California, Berkeley (UCB)",
-//     "Harvard University",
-//     "Princeton University",
-//     "University of Washington",
-//     "University of California, Los Angeles (UCLA)",
-//     "Columbia University",
-//     "Cornell University",
-//     "New York University (NYU)",
-//     "California Institute of Technology (Caltech)",
-//     "University of Texas at Austin",
-//     "University of Illinois at Urbana-Champaign",
-//     "University of Pennsylvania",
-//     "Yale University",
-//     "Georgia Institute of Technology",
-//     "University of Michigan-Ann Arbor",
-//     "University of Chicago",
-//     "University of Southern California",
-//     "University of California, San Diego (UCSD)",
-//     "University of Maryland, College Park",
-//     "Purdue University",
-//     "University of North Carolina, Chapel Hill",
-//     "Duke University",
-//     "Johns Hopkins University",
-//     "University of Wisconsin-Madison",
-//     "Boston University",
-//     "University of Massachusetts Amherst",
-//     "University of California, Irvine",
-//     "Pennsylvania State University",
-//     "Brown University",
-//     "Michigan State University",
-//     "Arizona State University",
-//     "Northeastern University",
-//     "Northwestern University",
-//     "The Ohio State University",
-//     "Rice University",
-//     "Rutgers University–New Brunswick",
-//     "Texas A&M University",
-//     "University of California, Santa Barbara (UCSB)",
-//     "University of Pittsburgh",
-//     "University of Virginia",
-//     "Virginia Polytechnic Institute and State University",
-//     "Indiana University Bloomington",
-//     "Stony Brook University, State University of New York",
-//     "University of California, Davis",
-//     "University of Florida",
-//     "University of Illinois at Chicago (UIC)",
-//     "University of Minnesota Twin Cities",
-//     "Washington University in St. Louis",
-//     "George Mason University",
-//     "North Carolina State University",
-//     "The University of Arizona",
-//     "University of Notre Dame",
-//     "University of Rochester",
-//     "University of Texas Dallas",
-//     "Washington State University",
-//     "Florida State University",
-//     "George Washington University",
-//     "Illinois Institute of Technology",
-//     "University of Colorado Boulder",
-//     "Dartmouth College",
-//     "Georgia State University",
-//     "University at Buffalo SUNY",
-//     "University of Central Florida",
-//     "The University of Tennessee, Knoxville",
-//     "University of Utah",
-//     "Vanderbilt University",
-//     "Florida International University",
-//     "Iowa State University",
-//     "Rensselaer Polytechnic Institute",
-//     "Syracuse University",
-//     "University of Miami",
-//     "University of South Carolina",
-//     "University of South Florida",
-//     "Case Western Reserve University",
-//     "Colorado State University",
-//     "Drexel University",
-//     "Georgetown University",
-//     "Rochester Institute of Technology (RIT)",
-//     "University of Connecticut",
-//     "The University of Texas at Arlington",
-//     "College of William and Mary",
-//     "City University of New York",
-//     "Temple University",
-//     "The University of Georgia",
-//     "Tufts University",
-//     "The University of Alabama",
-//     "University of California, Riverside",
-//     "University of Houston",
-//     "University of Missouri, Columbia",
-//     "Wayne State University",
-//     "Binghamton University SUNY",
-//     "Emory University",
-//     "New Jersey Institute of Technology (NJIT)",
-//     "Oregon State University",
-//     "Texas Tech University",
-//     "University of California, Santa Cruz",
-//     "University of Iowa"
-// ]
+Massachusetts Institute of Technology (MIT)
+Stanford University
+Carnegie Mellon University
+University of California, Berkeley (UCB)
+Harvard University
+Princeton University
+University of Washington
+University of California, Los Angeles (UCLA)
+Columbia University
+Cornell University
+New York University (NYU)
+California Institute of Technology (Caltech)
+University of Texas at Austin
+University of Illinois at Urbana-Champaign
+University of Pennsylvania
+Yale University
+Georgia Institute of Technology
+University of Michigan-Ann Arbor
+University of Chicago
+University of Southern California
+University of California, San Diego (UCSD)
+University of Maryland, College Park
+Purdue University
+University of North Carolina, Chapel Hill
+Duke University
+Johns Hopkins University
+University of Wisconsin-Madison
+Boston University
+University of Massachusetts Amherst
+University of California, Irvine
+Pennsylvania State University
+Brown University
+Michigan State University
+Arizona State University
+Northeastern University
+Northwestern University
+The Ohio State University
+Rice University
+Rutgers University–New Brunswick
+Texas A&M University
+University of California, Santa Barbara (UCSB)
+University of Pittsburgh
+University of Virginia
+Virginia Polytechnic Institute and State University
+Indiana University Bloomington
+Stony Brook University, State University of New York
+University of California, Davis
+University of Florida
+University of Illinois at Chicago (UIC)
+University of Minnesota Twin Cities
+Washington University in St. Louis
+George Mason University
+North Carolina State University
+The University of Arizona
+University of Notre Dame
+University of Rochester
+University of Texas Dallas
+Washington State University
+Florida State University
+George Washington University
+Illinois Institute of Technology
+University of Colorado Boulder
+Dartmouth College
+Georgia State University
+University at Buffalo SUNY
+University of Central Florida
+The University of Tennessee, Knoxville
+University of Utah
+Vanderbilt University
+Florida International University
+Iowa State University
+Rensselaer Polytechnic Institute
+Syracuse University
+University of Miami
+University of South Carolina
+University of South Florida
+Case Western Reserve University
+Colorado State University
+Drexel University
+Georgetown University
+Rochester Institute of Technology (RIT)
+University of Connecticut
+The University of Texas at Arlington
+College of William and Mary
+City University of New York
+Temple University
+The University of Georgia
+Tufts University
+The University of Alabama
+University of California, Riverside
+University of Houston
+University of Missouri, Columbia
+Wayne State University
+Binghamton University SUNY
+Emory University
+New Jersey Institute of Technology (NJIT)
+Oregon State University
+Texas Tech University
+University of California, Santa Cruz
+University of Iowa

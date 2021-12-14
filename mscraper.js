@@ -3,6 +3,7 @@ const jsoncsv = require('json-csv')
 const webdriver = require('selenium-webdriver');
 const safari = require('selenium-webdriver/chrome');
 const sleep = require("sleep");
+const config = require('./config.json');
 
 async function runTest(){
   let driver = new webdriver.Builder()
@@ -15,11 +16,12 @@ async function runTest(){
 
   const finalList = [];
   const failedList = [];
+  const studyField = config['studyField'] || "Computer Science";
   for (var i = 0; i < UNIVERSITIES.length; i++){
     const uni =  UNIVERSITIES[i];
     let universityNumber = i+1;
     try {
-      await driver.get(`https://www.google.com/search?q=${uni.split(" ").join("-")}+yocket+MS+Computer+science`)
+      await driver.get(`https://www.google.com/search?q=${uni.split(" ").join("-")}+yocket+MS+${studyField.split(" ").join("+")}`)
       sleep.sleep(1);
       await driver.executeScript("document.querySelector('#search a').click()");
       sleep.sleep(1);
@@ -130,7 +132,7 @@ async function runTest(){
   }
   
   let csv = await jsoncsv.buffered(finalList, options) 
-  fs.writeFileSync(`./output/output-univs_${Date.now()}.csv` , csv);  
+  fs.writeFileSync(`./output/output-univs_${studyField.split(" ").join("_")}_${Date.now()}.csv` , csv);  
   await driver.quit();
 }
 runTest();
