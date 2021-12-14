@@ -86,13 +86,13 @@ async function runTest(){
   let options = {
     fields: [
       {
+        name: 'universityNumber',
+        label: 'S.No.',
+      },
+      {
         name: 'uni',
         label: 'University',
         quoted: true,
-      },
-      {
-        name: 'universityNumber',
-        label: 'S.No.',
       },
       {
         name: 'duration',
